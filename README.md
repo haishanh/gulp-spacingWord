@@ -28,7 +28,7 @@ npm install --save gulp-spacingWord
 
 in your `gulpfile.js`
 
-```
+```javascript
 const gulp = require('gulp');
 const spacing = require('gulp-spacingWord');
 
