@@ -1,7 +1,7 @@
 This is a stupid gulp plugin use to add a space between English word and Chinese character in your documents.
 
 
-Adding a space between English and Chinese will increase readability. So, don't use this plugin, you should add that space while you are writing your docs in the first place.
+Adding a such a space will increase readability. So, don't use this plugin, you should add that space while you are writing your docs in the first place.
 
 But if you already have many docs have such a issue you may try this plugin.
 
@@ -17,7 +17,7 @@ With this plugin, you will expect transform like below:
 'Chinese，\n《hello》'   => 'Chinese，\n《hello》'  # Stay unchanged
 ```
 
-You may archive this by using [`gulp-replace`](https://github.com/lazd/gulp-replace). But you still have to write your own **replacer** function.
+You may achieve this by using [`gulp-replace`](https://github.com/lazd/gulp-replace). But you still have to write your own *replacer* function.
 
 
 ## Usage
