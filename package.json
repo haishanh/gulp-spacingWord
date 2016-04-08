@@ -1,13 +1,17 @@
 {
   "name": "gulp-spacingWord",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haishanh/gulp-spacingWord.git"
+  },
+  "author": "Han Haishan <haishanhan@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "gulp-util": "^3.0.7",
     "through2": "^2.0.1"
